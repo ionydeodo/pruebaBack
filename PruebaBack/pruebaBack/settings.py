@@ -114,14 +114,7 @@ DATABASES = {
         default='postgresql://postgres:postgres@localhost:5432/mysite',
         conn_max_age=600
     ),
-    'second': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pruebaBack',
-        'USER': 'postgres',
-        'PASSWORD': 'examine2405',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+
 }
 
 
