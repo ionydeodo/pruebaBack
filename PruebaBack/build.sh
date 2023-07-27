@@ -4,5 +4,6 @@ set -o errexit
 
 pip install -r PruebaBack/requirements.txt
 
+python PruebaBack/manage.py collectstatic --no-input
 python PruebaBack/manage.py makemigrations
 python PruebaBack/manage.py migrate
